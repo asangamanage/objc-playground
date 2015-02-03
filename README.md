@@ -9,7 +9,7 @@ All you need is a mac and a terminal with vim.
 ## How to run ?
 
 ```
-gcc -framework Foundation prog.m  -o prog && ./prog
+$> gcc -framework Foundation prog.m  -o prog && ./prog
 ```
 Too long ?
 
@@ -18,10 +18,10 @@ Too long ?
 https://github.com/asangamanage/productivity/blob/master/easy-alias.txt
 
 ```
-aset gccf "gcc -framework Foundation"
+$> aset gccf "gcc -framework Foundation"
 ```
 
 Then new short version
 ```
-ccf prog.m -o prog && ./prog
+$> ccf prog.m -o prog && ./prog
 ```
