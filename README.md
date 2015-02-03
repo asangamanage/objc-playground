@@ -1,27 +1,10 @@
 # objc-playground
 Objective C learning area.
 
-This is the quickest way to get your hands on to objective c. 
+This is the X-Code project.
 
-You don't even need Xcode. 
-All you need is a mac and a terminal with vim.
+This is the quickest way to get your hands on to objective c. 
 
 ## How to run ?
 
-```
-$> gcc -framework Foundation prog.m  -o prog && ./prog
-```
-Too long ?
-
-## Use easy alias tool and set an alias !! ;)
-
-https://github.com/asangamanage/productivity/blob/master/easy-alias.txt
-
-```
-$> aset gccf "gcc -framework Foundation"
-```
-
-Then new short version
-```
-$> ccf prog.m -o prog && ./prog
-```
+Open this prject in xcode and press :  CMD + R
